@@ -1,0 +1,10 @@
+body {
+    background-color: aquamarine;
+    color: black;
+    font-family: sans-serif;
+    display: block;
+    position: relative;
+    text-align: justify;
+    width: 1150px;
+    left: 100px;
+    }
