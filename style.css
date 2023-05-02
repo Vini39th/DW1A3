@@ -1,4 +1,4 @@
-* {
+body {
     background-color: beige;
     font-family: 'Poppins', sans-serif;
 }
@@ -13,4 +13,8 @@ main {
 .Circle-Photo img {
     width: 500px;
     height: 600px;
+}
+
+aside {
+    max-width: 800px;
 }
