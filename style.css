@@ -1,0 +1,16 @@
+* {
+    background-color: beige;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.Circle-Photo img {
+    width: 500px;
+    height: 600px;
+}
