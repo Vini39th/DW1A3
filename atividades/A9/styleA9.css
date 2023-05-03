@@ -128,7 +128,17 @@ header {
 }
 
 /* Cards ======================== */
-.card {
+.card.entrada {
+    background: rgb(234, 240, 232);
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+
+    margin-bottom: 2rem;
+
+    color: #363f5f;
+}
+
+.card.saida {
     background: rgb(240, 232, 232);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
@@ -157,6 +167,10 @@ header {
 .card.total {
     background: #13473a;
     color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+
+    margin-bottom: 2rem;
 }
 
 /* Table ======================== */
