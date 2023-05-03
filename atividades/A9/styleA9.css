@@ -18,8 +18,8 @@ html {
 }
 
 body {
-    background: #f0f2f5;
-    font-family: 'Poppins', sans-serif
+    background: rgb(204, 222, 224);
+    font-family: 'Poppins', sans-serif;
 }
 
 .sr-only {
@@ -50,12 +50,14 @@ h2 {
 
 /* Links & Buttons ======================== */
 a {
-    color: var(--green);
+    color: black;
     text-decoration: none;
+    transition: transform 1s, background 2s;
 }
 
 a:hover {
-    color: #3dd705;
+    color: blue;
+    transform: translateX(4px) translateY(2px) scale(0.9);
 }
 
 button {
@@ -65,8 +67,8 @@ button {
     border: none;
 
     color: white;
-    background: #49AA26;
-
+    background: #2826aa;
+    transition: transform 1s, background 2s;
     padding: 0;
 
     border-radius: 0.25rem;
@@ -75,7 +77,8 @@ button {
 }
 
 button:hover {
-    background: #3dd705;
+    background: #4543d1;
+    transform: translateY(10px) scale(1);
 }
 
 .button.new {
@@ -84,26 +87,27 @@ button:hover {
 }
 
 .button.cancel {
-    color: #e92929;
-    border: 2px #e92929 solid;
+    color: gray;
+    border: 2px gray solid;
     border-radius: 0.25rem;
-
+    transition: transform 1s, background 2s;
     height: 50px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     
-    opacity: 0.6;
+    opacity: 0.65;
 }
 
 
 .button.cancel:hover {
     opacity: 1;
+    transform: translateY(10px) scale(1);
 }
 /* Header ======================== */
 header {
-    background: #2D4A22;
+    background: rgb(165, 165, 165);
     padding: 2rem 0 10rem;
     text-align: center;
 }
@@ -125,7 +129,7 @@ header {
 
 /* Cards ======================== */
 .card {
-    background: white;
+    background: rgb(240, 232, 232);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 
@@ -151,7 +155,7 @@ header {
 }
 
 .card.total {
-    background: #49AA26;
+    background: #13473a;
     color: white;
 }
 
@@ -180,7 +184,7 @@ table tbody tr td:last-child {
 
 table thead th {
     background: white;
-
+    
     font-weight: normal;
     padding: 1rem 2rem;
 
@@ -193,6 +197,8 @@ table tbody tr {
 
 table tbody tr:hover {
     opacity: 1
+    transition: transform 1.25s, background 1.25s;
+    transform: translateX(1px) translateY(1px) scale(0.9);
 }
 
 table tbody td {
@@ -238,9 +244,9 @@ td.expense {
 }
 
 .modal {
-    background-color: #F0F2f5;
+    background-color: #e0e0e0;
     padding: 2.4rem;
-
+    border-radius: 1.25rem;
     position: relative;
     z-index: 1;
 }
@@ -249,6 +255,7 @@ td.expense {
 /* Form ======================== */
 #form {
     max-width: 500px;
+    border-radius: 0.2rem;
 }
 
 #form h2 {
@@ -269,7 +276,7 @@ input {
 }
 
 .input-group small {
-    opacity: 0.4;
+    opacity: 0.85;
 }
 
 .input-group.actions {
@@ -286,11 +293,15 @@ input {
 footer {
     text-align: center;
     padding: 4rem 0 2rem;
-    color: #363f5f;
+    color: black;
 
-    opacity: 0.6;
+    opacity: 0.75;
 }
 
+.img13 {
+    width: 405.5px;
+    height: 219px;
+}
 
 /* Responsive ======================== */
 @media (min-width: 800px) {
