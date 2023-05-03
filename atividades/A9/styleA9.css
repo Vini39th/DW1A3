@@ -3,7 +3,7 @@
     --dark-blue: #363f5f;
     --green: #49AA26;
     --light-green: #3dd705;
-    --red: #e92929; 
+    --red: #e92929;
 
 }
 
@@ -14,7 +14,8 @@
 }
 
 html {
-    font-size: 93.75%; /* 15px */
+    font-size: 93.75%;
+    /* 15px */
 }
 
 body {
@@ -72,7 +73,7 @@ button {
     padding: 0;
 
     border-radius: 0.25rem;
-    
+
     cursor: pointer;
 }
 
@@ -96,7 +97,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     opacity: 0.65;
 }
 
@@ -105,6 +106,7 @@ button:hover {
     opacity: 1;
     transform: translateY(10px) scale(1);
 }
+
 /* Header ======================== */
 header {
     background: rgb(165, 165, 165);
@@ -179,6 +181,7 @@ header {
     width: 100%;
     overflow-x: auto;
 }
+
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
@@ -186,8 +189,7 @@ header {
 }
 
 table thead tr th:first-child,
-table tbody tr td:first-child 
-{
+table tbody tr td:first-child {
     border-radius: 0.25rem 0 0 0.25rem;
 }
 
@@ -198,7 +200,7 @@ table tbody tr td:last-child {
 
 table thead th {
     background: white;
-    
+
     font-weight: normal;
     padding: 1rem 2rem;
 
@@ -210,8 +212,7 @@ table tbody tr {
 }
 
 table tbody tr:hover {
-    opacity: 1
-    transition: transform 1.25s, background 1.25s;
+    opacity: 1 transition: transform 1.25s, background 1.25s;
     transform: translateX(1px) translateY(1px) scale(0.9);
 }
 
@@ -237,7 +238,7 @@ td.expense {
     width: 100%;
     height: 100%;
 
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 
     position: fixed;
     top: 0;
@@ -303,6 +304,7 @@ input {
 .input-group.actions button {
     width: 48%;
 }
+
 /* Footer ======================== */
 footer {
     text-align: center;
@@ -320,7 +322,8 @@ footer {
 /* Responsive ======================== */
 @media (min-width: 800px) {
     html {
-        font-size: 87.5%; /* 14% */
+        font-size: 87.5%;
+        /* 14% */
     }
 
     #balance {
