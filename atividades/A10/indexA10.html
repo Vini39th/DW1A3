@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 9 - Border Radius Previewer</title>
+    <link rel="stylesheet" href="./styleA10.css">
+</head>
+<body>
+    <div class="head">
+        <p>Border Radius Previewer</p>
+    </div>
+    <section>
+        <div class="container">
+          <div class="iso">
+            <div class="wrap" style="--v: 0; --h: 0; --ax: 0; --val: 40; --sf: 1">
+              <input type="range" value="40" id="rx00"/>
+              <label for="rx00"><span>top left</span>
+                <var>rx</var>
+                <output></output>
+              </label>
+            </div>
+            <div class="wrap" style="--v: 0; --h: 0; --ax: 1; --val: 46; --sf: 1">
+              <input type="range" value="46" id="ry00"/>
+              <label for="ry00"><span>top left</span>
+                <var>ry</var>
+                <output></output>
+              </label>
+            </div>
+            <div class="wrap" style="--v: 0; --h: 1; --ax: 0; --val: 43; --sf: -1">
+              <input type="range" value="43" id="rx01"/>
+              <label for="rx01"><span>top right</span>
+                <var>rx</var>
+                <output></output>
+              </label>
+            </div>
+            <div class="wrap" style="--v: 0; --h: 1; --ax: 1; --val: 41; --sf: 1">
+              <input type="range" value="41" id="ry01"/>
+              <label for="ry01"><span>top right</span>
+                <var>ry</var>
+                <output></output>
+              </label>
+            </div>
+            <div class="wrap" style="--v: 1; --h: 0; --ax: 0; --val: 40; --sf: 1">
+              <input type="range" value="40" id="rx10"/>
+              <label for="rx10"><span>bottom left</span>
+                <var>rx</var>
+                <output></output>
+              </label>
+            </div>
+            <div class="wrap" style="--v: 1; --h: 0; --ax: 1; --val: 44; --sf: -1">
+              <input type="range" value="44" id="ry10"/>
+              <label for="ry10"><span>bottom left</span>
+                <var>ry</var>
+                <output></output>
+              </label>
+            </div>
+            <div class="wrap" style="--v: 1; --h: 1; --ax: 0; --val: 46; --sf: -1">
+              <input type="range" value="46" id="rx11"/>
+              <label for="rx11"><span>bottom right</span>
+                <var>rx</var>
+                <output></output>
+              </label>
+            </div>
+            <div class="wrap" style="--v: 1; --h: 1; --ax: 1; --val: 42; --sf: -1">
+              <input type="range" value="42" id="ry11"/>
+              <label for="ry11"><span>bottom right</span>
+                <var>ry</var>
+                <output></output>
+              </label>
+            </div>
+          </div>
+          <div id="blob" style="--rx00: 40%;--ry00: 46%;--rx01: 43%;--ry01: 41%;--rx10: 40%;--ry10: 44%;--rx11: 46%;--ry11: 42%;"></div>
+        </div>
+    </section>
+    <pre id="code"></pre>
+    <script src="./scriptA10.js"></script>
+</body>
+</html>
