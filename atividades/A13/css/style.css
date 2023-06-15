@@ -18,8 +18,13 @@
   --purple-secondary: #333867;
   --title-primary-color: rgb(231 226 226);
 }
+@font-face {
+  font-family: 'DS-Digital';
+  src: url(/atividades/A13/to-do-list-javascript-main/ds_digital/DS-DIGIB.TTF);
+}
+
 body * {
-  font-family: "Roboto", sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
   height: 100vh;
@@ -121,6 +126,9 @@ body {
   color: var(--title-primary-color);
   font-weight: 900;
   font-size: 40px;
+}
+.progress-value {
+  font-family:'DS-Digital', Courier, sans-serif;
 }
 /* card footer */
 .card-footer {
