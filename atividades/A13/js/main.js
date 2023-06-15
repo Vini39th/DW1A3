@@ -6,7 +6,7 @@ const buttonTypeShortBreak = document.querySelector("#buttonTypeShortBreak");
 const audio = new Audio('alarm.mp3');
 
 const pomodoroTimerInSeconds = 1500; 
-const shortBreakTimerInSeconds = 100;
+const shortBreakTimerInSeconds = 300;
 const TIMER_TYPE_POMODORO = 'POMODORO';
 const TIMER_TYPE_SHORT_BREAK = 'SHORTBREAK';
 
