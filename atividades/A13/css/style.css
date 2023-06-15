@@ -128,7 +128,7 @@ body {
   font-size: 40px;
 }
 .progress-value {
-  font-family:'DS-Digital';
+  font-family:'DS-Digital', 'Gill Sans', 'Gill Sans MT', sans-serif;
 }
 /* card footer */
 .card-footer {
